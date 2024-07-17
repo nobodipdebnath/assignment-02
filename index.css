@@ -201,6 +201,7 @@ nav ul li{
     left: 910px;
     margin-top: 50px;
     background: url(images/run.jpg);
+    background-position: center;
     background-size: cover;
     border-radius: 18px;
 }
@@ -286,4 +287,80 @@ td{
 .bmi-btn{
     width: 224px;
     height: 54px;
+}
+
+/* teams section */
+.teams-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1060px;
+    height: 604px;
+    margin: 88px 190px;
+    margin-left: 210px;
+    padding: 10px;
+    border-radius: 18px;
+    background: #FFFFFF1A;
+}
+.trainer{
+    width: 326.67px;
+    position: relative;
+    left: 12px;
+    top: 8px;
+    height: 272px;
+    border-radius: 18px;
+    background: url(images/trainer1.png);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 10px;
+}
+.trainer-1{
+    background: url(images/trainer2.png);
+    background-position: center;
+    background-size: cover;
+}
+.trainer-2{
+    background: url(images/trainer3.png);
+    background-position: center;
+    background-size: cover;
+}
+.trainer-3{
+    background: url(images/trainer4.png);
+    background-position: center;
+    background-size: cover;
+}
+.trainer-4{
+    background: url(images/trainer5.png);
+    background-position: center;
+    background-size: cover;
+}
+.trainer-5{
+    background: url(images/trainer6.png);
+    background-position: center;
+    background-size: cover;
+}
+.teams-title{
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 14px;
+    color: #FFFFFF;
+}
+.teams-discription{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 58px;
+    color: #FFFFFF80;
+
+}
+.trainer-name{
+    position: relative;
+    top: 230px;
+    left: 5px;
+    color: #FFFFFF;
+
+}
+.rank{
+    font-size: 14px;
+    color: #FFFFFF80;
 }
