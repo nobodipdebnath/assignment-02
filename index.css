@@ -56,7 +56,7 @@ nav ul {
 nav ul li{
     list-style: none;
     font-size: 18px;
-    color: rgb(255, 255, 255);
+    color: #FFFFFF;
 }
 .home{
     background-color: #E6533C;
@@ -74,7 +74,7 @@ nav ul li{
     margin-bottom: 50px;
 }
 .banner-title{
-    color: rgb(255, 255, 255);
+    color: #FFFFFF;
     font-size: 78px;
     font-weight: 900;
     margin-top: -55px;
@@ -84,7 +84,7 @@ nav ul li{
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-  }
+}
   
 .banner-description{
     color: rgba(255, 255, 255, 0.5);
@@ -100,17 +100,17 @@ nav ul li{
 }
 .btn-new{
     background: transparent;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid #FFFFFF;
     margin-left: 15px;
 }
 .img-text{
-    color: rgb(250, 250, 249);
+    color: #FFFFFF;
     font-size: 30px;
     font-weight: 900;
 }
 .img-text-2{
     font-size: 50px;
-    color: rgb(255, 255, 255);
+    color: #FFFFFF;
     font-weight: 900;
 }
 .img-box{
@@ -126,7 +126,7 @@ nav ul li{
     border-radius: 12px;
     backdrop-filter: blur(20px);
     font-size: 18px;
-    color: rgb(255, 255, 255);
+    color: #FFFFFF;
     background: rgba(48, 48, 48, 0.54);
 }
 .new{
@@ -135,7 +135,7 @@ nav ul li{
 }
 .text{
     font-size: 16px;
-    color: rgb(255, 255, 255);
+    color: #FFFFFF80;
     margin-left: 20px;
 }
 .cercle{
@@ -144,4 +144,77 @@ nav ul li{
     background-color: #E6533C;
     border-radius: 50%;
     margin-left: 10px;
+}
+
+/* habits section */
+.habits-container{
+    display: grid;
+    gap: 60px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 20px;
+}
+.habit-section{
+    margin: 100px 190px 100px 190px;
+}
+.habit-title{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.habit-description{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 50px;
+    color: #FFFFFF80;
+}
+.habit-img{
+    border: 5px solid rgb(40, 39, 39);
+    border-radius: 50%;
+    margin-left: 18px;
+    margin-bottom: 30px;
+}
+.habit-text{
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+/* run Section */
+.run{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px 190px 50px 190px;
+    justify-content: space-between;
+    height: 410px;
+    background: rgb(34, 34, 34);
+    border-radius: 18px;
+}
+.run-section{
+    padding: 60px;
+}
+.run-img{
+    position: absolute;
+    width: 366px;
+    height: 312px;
+    left: 910px;
+    margin-top: 50px;
+    background: url(images/run.jpg);
+    background-size: cover;
+    border-radius: 18px;
+}
+.run-title{
+    font-size: 48px;
+    color: #FFFFFF;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.run-description{
+    font-size: 14px;
+    color: #FFFFFF80;
+    margin-bottom: 30px;
+}
+.run-btn{
+    width: 210px;
 }
