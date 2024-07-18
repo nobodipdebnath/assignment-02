@@ -462,6 +462,7 @@ hr{
     margin-top: 36px;
     font-size: 1.1rem;
     color: #FFFFFF80;
+    margin-bottom: 30px;
 }
 /* for mobile device */
 @media (max-width: 576px) {
@@ -476,6 +477,9 @@ hr{
     }
     .banner{
         flex-direction: column;
+    }
+    .img-box{
+        left: 10px;
     }
     .banner-title{
         font-size: 38px;
@@ -495,11 +499,36 @@ hr{
     .habit-title{
         font-size: 36px;
     }
-    .run{
-        grid-template-columns: repeat(1,1fr);
-    }
     .row, .teams-section, .footer, .menu{
         grid-template-columns: repeat(1,1fr);
+    }
+    .run{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 15px;
+        width: 95%;
+        height: 540px;
+    }
+    .run-title{
+        padding: 20px -10px;
+        font-size: 38px;
+    }
+    .run-section{
+        padding: 20px 20px;
+        margin: 20px 0px 0px 20px;
+    }
+    .run-btn{
+        width: 100%;
+        margin-top: -20px;
+        margin-left: -10px;
+    }
+    .run-img{
+        position: relative;
+        padding-bottom: 15px;
+        width: 90%;
+        height: 210px;
+        left: 15px;
+        top: -50px;
+    
     }
     .bmi{
         grid-template-columns: repeat(1,1fr);
@@ -512,9 +541,9 @@ hr{
         margin-bottom: 30px;
     }
     .teams-section{
-        width: 95%;
+        width: 80%;
         height: 1950px;
-        margin-left: 0px;
+        margin-left: 20px;
     }
     .trainer{
         width: 90%;
@@ -526,6 +555,23 @@ hr{
     }
     .footer{
         margin-left: -135px;
-        height: auto;
+    }
+    footer{
+        height: 880px;
+    }
+    hr{
+        align-items: center;
+        margin: 0px 10px;
+        margin-top: -40px;
+    }
+    .copy{
+        padding: 40px 10px;
+        margin-top: -20px;
+    }
+    .footer-description{
+        margin-bottom: 20px;
+    }
+    .menu-item{
+        margin-top: 20px;
     }
 }
