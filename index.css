@@ -364,3 +364,53 @@ td{
     font-size: 14px;
     color: #FFFFFF80;
 }
+/* footer path */
+
+footer{
+    height: 490px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 66px 190px 100px 190px;
+
+}
+.footer-title{
+    font-size: 70px;
+    font-weight: 800;
+    color: #E6533C;
+}
+.footer-description{
+    font-size: 14px;
+    color: #FFFFFF80;
+    line-height: 24px;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.menu-item h3{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 39px;
+    color: #FFFFFF;
+}
+.menu-item ul li{
+    list-style: none;
+    font-size: 18px;
+    padding: 10px 0px;
+}
+.menu-item ul li a{
+    color: #FFFFFF80;
+}
+hr{
+    margin: 0px 190px;
+    align-items: center;
+}
+.copy{
+    text-align: center;
+    margin-top: 36px;
+    font-size: 20px;
+    color: #FFFFFF80;
+}
