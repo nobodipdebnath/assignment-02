@@ -220,6 +220,55 @@ nav ul li{
     width: 210px;
 }
 
+/* --------Facilities----------- */
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 50px;
+}
+.row{
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-content: space-between;
+}
+.facilities-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.facilities-col img{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.facilities-col p{
+    padding: 0;
+    font-size: 14px;
+    color: #FFFFFF80;
+}
+.facilities-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.facilitates-title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-top: -40px;
+}
+.facilitates-description{
+    font-size: 14px;
+    color: #FFFFFF80;
+    margin-bottom: 30px;
+}
+
 /* table style */
 table {
     border-collapse: collapse;
