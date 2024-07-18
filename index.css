@@ -464,13 +464,16 @@ hr{
     color: #FFFFFF80;
     margin-bottom: 30px;
 }
+nav .fa-solid{
+    display: none;
+}
 /* for mobile device */
 @media (max-width: 576px) {
     nav ul{
         display: none;
     }
-    .nav-title{
-        position: relative;
+    nav{
+        width: 70%;
     }
     .header{
         margin-left: -170px;
@@ -484,20 +487,53 @@ hr{
     .banner-title{
         font-size: 38px;
         width: 100%;
+        margin-top: -100px;
+    }
+    nav .fa-solid{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .banner-img{
+        margin-left: 100px;
+        margin-top: 140px;
+    }
+    .img-box{
+        position: absolute;
+        left: 30px;
+        top: 870px;
+    }
+    .new{
+        left: 310px;
+        top: 550px;
+    }
+    .btn-container{
+        position: absolute;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .btn{
+        width: 200px;
     }
     .habit-section{
-        margin-left: 30px;
+        margin: 0px 150px;
+        align-items: center;
+        justify-content: center;
     }
     .habits-container{
         grid-template-columns: repeat(1, 1fr);
         gap: 30px;
     }
     .habit-description{
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         text-align: center;
     }
     .habit-title{
         font-size: 36px;
+        padding: 0px -60px;
+        margin-top: -40px;
     }
     .row, .teams-section, .footer, .menu{
         grid-template-columns: repeat(1,1fr);
@@ -532,7 +568,7 @@ hr{
     }
     .bmi{
         grid-template-columns: repeat(1,1fr);
-        margin-left: -150px;
+        margin-left: -50px;
     }
     .button-2{
         width: 282.5px;
@@ -541,9 +577,9 @@ hr{
         margin-bottom: 30px;
     }
     .teams-section{
-        width: 80%;
+        width: 85%;
         height: 1950px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
     .trainer{
         width: 90%;
