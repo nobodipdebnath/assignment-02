@@ -20,7 +20,7 @@ a{
 }
 .btn{
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 600;
     background-color: #E6533C;
     border-radius: 39px;
@@ -38,7 +38,7 @@ nav{
     padding: 40px 190px 0px 190px;
 }
 .nav-title{
-    font-size: 36px;
+    font-size: 2rem;
     font-weight: 700;
     color: #E6533C;
 }
@@ -55,7 +55,7 @@ nav ul {
 }
 nav ul li{
     list-style: none;
-    font-size: 18px;
+    font-size: 1rem;
     color: #FFFFFF;
 }
 .home{
@@ -75,7 +75,7 @@ nav ul li{
 }
 .banner-title{
     color: #FFFFFF;
-    font-size: 78px;
+    font-size: 5rem;
     font-weight: 900;
     margin-top: -55px;
 }
@@ -88,7 +88,7 @@ nav ul li{
   
 .banner-description{
     color: rgba(255, 255, 255, 0.5);
-    font-size: 16px;
+    font-size: 0.9rem;
     font-weight: 400;
     margin-top: 28px;
 }
@@ -105,11 +105,11 @@ nav ul li{
 }
 .img-text{
     color: #FFFFFF;
-    font-size: 30px;
+    font-size: 1.9rem;
     font-weight: 900;
 }
 .img-text-2{
-    font-size: 50px;
+    font-size: 2.9rem;
     color: #FFFFFF;
     font-weight: 900;
 }
@@ -125,7 +125,7 @@ nav ul li{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
-    font-size: 18px;
+    font-size: 1rem;
     color: #FFFFFF;
     background: rgba(48, 48, 48, 0.54);
 }
@@ -134,16 +134,16 @@ nav ul li{
     left: 1180px;
 }
 .text{
-    font-size: 16px;
+    font-size: 0.9rem;
     color: #FFFFFF80;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .cercle{
     height: 40px;
     width: 40px;
     background-color: #E6533C;
     border-radius: 50%;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 /* habits section */
@@ -158,14 +158,14 @@ nav ul li{
 }
 .habit-title{
     text-align: center;
-    font-size: 55px;
+    font-size: 3.1rem;
     font-weight: 800;
     color: #FFFFFF;
     margin-bottom: 10px;
 }
 .habit-description{
     text-align: center;
-    font-size: 14px;
+    font-size: 0.7rem;
     margin-bottom: 50px;
     color: #FFFFFF80;
 }
@@ -206,13 +206,13 @@ nav ul li{
     border-radius: 18px;
 }
 .run-title{
-    font-size: 48px;
+    font-size: 2.6rem;
     color: #FFFFFF;
     font-weight: 800;
     margin-bottom: 20px;
 }
 .run-description{
-    font-size: 14px;
+    font-size: 0.7rem;
     color: #FFFFFF80;
     margin-bottom: 30px;
 }
@@ -258,13 +258,13 @@ nav ul li{
     color: #FFFFFF;
 }
 .facilitates-title{
-    font-size: 48px;
+    font-size: 2.7rem;
     font-weight: 900;
     color: #FFFFFF;
     margin-top: -40px;
 }
 .facilitates-description{
-    font-size: 14px;
+    font-size: 0.7rem;
     color: #FFFFFF80;
     margin-bottom: 30px;
 }
@@ -284,7 +284,7 @@ th, td {
     width: 50%;
 }
 td{
-    font-size: 14px;
+    font-size: 0.7rem;
     color: #FFFFFF80;
 }
 .bmi{
@@ -296,20 +296,20 @@ td{
     background: #222222;
 }
 .bmi-title{
-    font-size: 28px;
+    font-size: 1.5rem;
     font-weight: 900;
     margin-bottom: 52px;
     color: #FFFFFF;
 }
 .bmi-text{
     text-align: left;
-    font-size: 28px;
+    font-size: 1.5rem;
     font-weight: 900;
     margin-bottom: 14px;
     color: #FFFFFF;
 }
 .bmi-description{
-    font-size: 14px;
+    font-size: 0.7rem;
     color: #FFFFFF80;
     line-height: -2px;
     margin-bottom: 34px;
@@ -320,7 +320,7 @@ td{
     gap: 12px;
 }
 .button{
-    width: 282.5px;
+    width: 100%;
     height: 48px;
     align-items: center;
     padding: 12px 40px 12px 20px;
@@ -330,7 +330,7 @@ td{
     background: #FFFFFF80;
 }
 .button-2{
-    width: 585px;
+    width: 100%;
     margin-top: 15px;
 }
 .bmi-btn{
@@ -388,7 +388,7 @@ td{
     background-size: cover;
 }
 .teams-title{
-    font-size: 48px;
+    font-size: 2.6rem;
     font-weight: 900;
     text-align: center;
     margin-top: -40px;
@@ -396,7 +396,7 @@ td{
     color: #FFFFFF;
 }
 .teams-discription{
-    font-size: 14px;
+    font-size: 0.7rem;
     text-align: center;
     margin-bottom: 58px;
     color: #FFFFFF80;
@@ -410,7 +410,7 @@ td{
 
 }
 .rank{
-    font-size: 14px;
+    font-size: 0.7rem;
     color: #FFFFFF80;
 }
 /* footer path */
@@ -426,12 +426,12 @@ footer{
 
 }
 .footer-title{
-    font-size: 70px;
+    font-size: 3.8rem;
     font-weight: 800;
     color: #E6533C;
 }
 .footer-description{
-    font-size: 14px;
+    font-size: 0.7rem;
     color: #FFFFFF80;
     line-height: 24px;
 }
@@ -440,14 +440,14 @@ footer{
     grid-template-columns: repeat(2, 1fr);
 }
 .menu-item h3{
-    font-size: 32px;
+    font-size: 1.7rem;
     font-weight: 700;
     margin-bottom: 39px;
     color: #FFFFFF;
 }
 .menu-item ul li{
     list-style: none;
-    font-size: 18px;
+    font-size: 1rem;
     padding: 10px 0px;
 }
 .menu-item ul li a{
@@ -460,6 +460,72 @@ hr{
 .copy{
     text-align: center;
     margin-top: 36px;
-    font-size: 20px;
+    font-size: 1.1rem;
     color: #FFFFFF80;
+}
+/* for mobile device */
+@media (max-width: 576px) {
+    nav ul{
+        display: none;
+    }
+    .nav-title{
+        position: relative;
+    }
+    .header{
+        margin-left: -170px;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-title{
+        font-size: 38px;
+        width: 100%;
+    }
+    .habit-section{
+        margin-left: 30px;
+    }
+    .habits-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    .habit-description{
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .habit-title{
+        font-size: 36px;
+    }
+    .run{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .row, .teams-section, .footer, .menu{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .bmi{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: -150px;
+    }
+    .button-2{
+        width: 282.5px;
+    }
+    table{
+        margin-bottom: 30px;
+    }
+    .teams-section{
+        width: 95%;
+        height: 1950px;
+        margin-left: 0px;
+    }
+    .trainer{
+        width: 90%;
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+    .teams-discription{
+        margin-bottom: -60px;
+    }
+    .footer{
+        margin-left: -135px;
+        height: auto;
+    }
 }
