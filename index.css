@@ -469,6 +469,9 @@ nav .fa-solid{
 }
 /* for mobile device */
 @media (max-width: 576px) {
+    .inter-normal{
+        margin-right: 20px;
+    }
     nav ul{
         display: none;
     }
@@ -477,6 +480,7 @@ nav .fa-solid{
     }
     .header{
         margin-left: -170px;
+        width: 130%;
     }
     .banner{
         flex-direction: column;
@@ -497,16 +501,16 @@ nav .fa-solid{
         cursor: pointer;
     }
     .banner-img{
-        margin-left: 100px;
+        margin-left: 80px;
         margin-top: 140px;
     }
     .img-box{
         position: absolute;
-        left: 30px;
+        left: 15px;
         top: 870px;
     }
     .new{
-        left: 310px;
+        left: 290px;
         top: 550px;
     }
     .btn-container{
@@ -518,7 +522,7 @@ nav .fa-solid{
         width: 200px;
     }
     .habit-section{
-        margin: 0px 150px;
+        margin: 0px 130px;
         align-items: center;
         justify-content: center;
     }
