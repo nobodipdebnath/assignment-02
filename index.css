@@ -172,7 +172,25 @@ nav ul li{
     }
     .img-box{
         width: 180px;
+        right: 130px;
     }
+    .new{
+        left: 130px;
+    }
+    .banner-img{
+        margin-left: -70px;
+    }
+    .btn-new{
+        margin-left: 0px;
+    }
+    nav .fa-solid{
+        display: block;
+        color: #E6533C;
+        margin: 10px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    
 }
 /* habits section */
 .habits-container{
@@ -219,7 +237,7 @@ nav ul li{
         font-size: 38px;
     }
     .habit-img{
-        margin-left: 130px;
+        margin-left: 80px;
     }
     .nothing{
         margin-top: -100px;
@@ -560,7 +578,7 @@ hr{
         margin-left: -150px;
     }
     footer{
-        height: 850px;
+        height: 880px;
     }
     .menu{
         grid-template-columns: repeat(1, 1fr);
@@ -571,6 +589,9 @@ hr{
     hr{
         margin: 0px 30px;
         margin-top: -30px;
+    }
+    .copy{
+        margin-top: 25px;
     }
 }
 /* for mobile device */
