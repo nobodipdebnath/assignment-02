@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Italianno&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
 .inter-normal {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -9,14 +13,45 @@
       "slnt" 0;
       background-color: black;
 }
-*{
-    margin: 0;
-    padding: 0;
-
+/* navbar style */
+.header{
+    background: linear-gradient(rgb(40, 39, 39), rgba(100, 97, 97, 0));
 }
-/* shear style */
-a{
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 150px;
+}
+nav h3{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #E6533C;
+}
+nav ul{
+    display: flex;
+    width: 32%;
+    height: 40px;
+    gap: 10%;
+    text-align: center;
+    align-items: center;
+    padding: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+nav ul a{
     text-decoration: none;
+}
+nav ul li{
+    list-style: none;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+.home{
+    background-color: #E6533C;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 39px;
+    padding: 12px 25px;
 }
 .btn{
     color: rgb(255, 255, 255);
@@ -27,57 +62,20 @@ a{
     border: none;
     padding: 16px 40px 16px 40px;
     margin-top: 28px;
-    }
-/* navbar style */
-.header{
-    background: linear-gradient(rgb(40, 39, 39), rgba(100, 97, 97, 0));
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 40px 190px 0px 190px;
-}
-.nav-title{
-    font-size: 2rem;
-    font-weight: 700;
-    color: #E6533C;
-}
-nav ul {
-    display: flex;
-    width: 465px;
-    height: 46px;
-    gap: 47px;
-    text-align: center;
-    align-items: center;
-    padding: 4px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 39px;
-}
-nav ul li{
-    list-style: none;
-    font-size: 1rem;
-    color: #FFFFFF;
-}
-.home{
-    background-color: #E6533C;
-    border: none;
-    border-radius: 39px;
-    height: 25px;
-    padding: 10px 22px 10px 22px;
 }
 
 /* banner style */
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 190px;
-    margin-bottom: 50px;
+    margin:  170px 150px;
+    margin-bottom: 0px;
 }
 .banner-title{
     color: #FFFFFF;
     font-size: 5rem;
     font-weight: 900;
-    margin-top: -55px;
+    margin-top: -100px;
 }
 .dancing-script {
     font-family: "Dancing Script", cursive;
@@ -115,13 +113,13 @@ nav ul li{
 }
 .img-box{
     display: flex;
-    gap: 12px;
-    position: absolute;
+    gap: 10px;
+    position: relative;
     align-items: center;
-    width: 206px;
-    left: 870px;
-    bottom: 50px;
-    height: 96px;
+    width: 200px;
+    height: 95px;
+    bottom: 150px; 
+    right: 80px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
@@ -130,31 +128,61 @@ nav ul li{
     background: rgba(48, 48, 48, 0.54);
 }
 .new{
-    top: 290px;
-    left: 1180px;
+    bottom: 550px;
+    right: -220px;
+
 }
 .text{
     font-size: 0.9rem;
     color: #FFFFFF80;
-    margin-left: 10px;
+    padding-left: 25px;
 }
-.cercle{
+.text-2{
+    padding-left: 0px;
+}
+.cer{
     height: 40px;
     width: 40px;
     background-color: #E6533C;
     border-radius: 50%;
-    margin-left: 20px;
+    margin-left: 15px;
 }
-
+.fa-bars{
+    display: none;
+}
+@media (max-width: 576px) {
+    .header{
+        max-width: 100%;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    nav{
+        padding: 20px 50px;
+    }
+    nav ul{
+        display: none;
+    }
+    .banner-contain{
+        margin: 20px -100px;
+        margin-bottom: 150px;
+    }
+    .banner-title{
+        font-size: 38px;
+    }
+    .img-box{
+        width: 180px;
+    }
+}
 /* habits section */
 .habits-container{
     display: grid;
-    gap: 60px;
+    gap: 80px;
     grid-template-columns: repeat(4, 1fr);
     margin-left: 20px;
 }
 .habit-section{
-    margin: 100px 190px 100px 190px;
+    margin: -150px 150px 0px 150px;
 }
 .habit-title{
     text-align: center;
@@ -180,12 +208,29 @@ nav ul li{
     color: #FFFFFF;
     margin-bottom: 10px;
 }
+@media (max-width: 576px) {
+    .habits-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .habit-section{
+        margin: -150px 50px;
+    }
+    .habit-title{
+        font-size: 38px;
+    }
+    .habit-img{
+        margin-left: 130px;
+    }
+    .nothing{
+        margin-top: -100px;
+    }
+}
 
 /* run Section */
 .run{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 0px 190px 50px 190px;
+    margin: 50px 150px 50px 150px;
     justify-content: space-between;
     height: 410px;
     background: rgb(34, 34, 34);
@@ -195,11 +240,12 @@ nav ul li{
     padding: 60px;
 }
 .run-img{
-    position: absolute;
-    width: 366px;
+    position: relative;
+    width: 70%;
     height: 312px;
-    left: 910px;
+    left: 190px;
     margin-top: 50px;
+    margin-left: -55px;
     background: url(images/run.jpg);
     background-position: center;
     background-size: cover;
@@ -219,7 +265,24 @@ nav ul li{
 .run-btn{
     width: 210px;
 }
-
+@media (max-width: 576px) {
+    .run{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px 30px;
+        margin-top: 150px;
+        height: 720px;
+    }
+    .run-img{
+        left: 50px;
+        margin-top: -60px;
+        margin-left: 4px;
+        width: 80%;
+    }
+    .run-btn{
+        width: 100%;
+        margin-top: -10px;
+    }
+}
 /* --------Facilities----------- */
 .facilities{
     width: 80%;
@@ -268,13 +331,18 @@ nav ul li{
     color: #FFFFFF80;
     margin-bottom: 30px;
 }
+@media (max-width: 576px) {
+    .row{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 
 /* table style */
 table {
     border-collapse: collapse;
     margin-top: 20px;
 }
-.tabil-head{
+.table-head{
     color: #FFFFFF;
 }
 th, td {
@@ -286,6 +354,8 @@ th, td {
 td{
     font-size: 0.7rem;
     color: #FFFFFF80;
+    width: 175px;
+    height: 25px;
 }
 .bmi{
     display: grid;
@@ -337,7 +407,12 @@ td{
     width: 224px;
     height: 54px;
 }
-
+@media (max-width: 576px) {
+    .bmi{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 50px;
+    }
+}
 /* teams section */
 .teams-section{
     display: grid;
@@ -395,7 +470,7 @@ td{
     margin-bottom: 14px;
     color: #FFFFFF;
 }
-.teams-discription{
+.teams-description{
     font-size: 0.7rem;
     text-align: center;
     margin-bottom: 58px;
@@ -412,6 +487,20 @@ td{
 .rank{
     font-size: 0.7rem;
     color: #FFFFFF80;
+}
+@media (max-width: 576px) {
+    .teams-section{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1%;
+        width: 80%;
+        height: 1900px;
+        margin-left: 50px;
+        margin-top: -20px;
+    }
+    .trainer{
+        width: 85%;
+        padding-left: 40px;
+    }
 }
 /* footer path */
 
@@ -452,6 +541,7 @@ footer{
 }
 .menu-item ul li a{
     color: #FFFFFF80;
+    text-decoration: none;
 }
 hr{
     margin: 0px 190px;
@@ -464,154 +554,23 @@ hr{
     color: #FFFFFF80;
     margin-bottom: 30px;
 }
-nav .fa-solid{
-    display: none;
-}
-/* for mobile device */
 @media (max-width: 576px) {
-    .inter-normal{
-        margin-right: 20px;
-    }
-    nav ul{
-        display: none;
-    }
-    nav{
-        width: 70%;
-    }
-    .header{
-        margin-left: -170px;
-        width: 130%;
-    }
-    .banner{
-        flex-direction: column;
-    }
-    .img-box{
-        left: 10px;
-    }
-    .banner-title{
-        font-size: 38px;
-        width: 100%;
-        margin-top: -100px;
-    }
-    nav .fa-solid{
-        display: block;
-        color: #fff;
-        margin: 10px;
-        font-size: 22px;
-        cursor: pointer;
-    }
-    .banner-img{
-        margin-left: 80px;
-        margin-top: 140px;
-    }
-    .img-box{
-        position: absolute;
-        left: 15px;
-        top: 870px;
-    }
-    .new{
-        left: 290px;
-        top: 550px;
-    }
-    .btn-container{
-        position: absolute;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    .btn{
-        width: 200px;
-    }
-    .habit-section{
-        margin: 0px 130px;
-        align-items: center;
-        justify-content: center;
-    }
-    .habits-container{
-        grid-template-columns: repeat(1, 1fr);
-        gap: 30px;
-    }
-    .habit-description{
-        margin-bottom: 20px;
-        text-align: center;
-    }
-    .habit-title{
-        font-size: 36px;
-        padding: 0px -60px;
-        margin-top: -40px;
-    }
-    .row, .teams-section, .footer, .menu{
-        grid-template-columns: repeat(1,1fr);
-    }
-    .run{
-        grid-template-columns: repeat(1, 1fr);
-        margin-left: 15px;
-        width: 95%;
-        height: 540px;
-    }
-    .run-title{
-        padding: 20px -10px;
-        font-size: 38px;
-    }
-    .run-section{
-        padding: 20px 20px;
-        margin: 20px 0px 0px 20px;
-    }
-    .run-btn{
-        width: 100%;
-        margin-top: -20px;
-        margin-left: -10px;
-    }
-    .run-img{
-        position: relative;
-        padding-bottom: 15px;
-        width: 90%;
-        height: 210px;
-        left: 15px;
-        top: -50px;
-    
-    }
-    .bmi{
-        grid-template-columns: repeat(1,1fr);
-        margin-left: -50px;
-    }
-    .button-2{
-        width: 282.5px;
-    }
-    table{
-        margin-bottom: 30px;
-    }
-    .teams-section{
-        width: 85%;
-        height: 1950px;
-        margin-left: 30px;
-    }
-    .trainer{
-        width: 90%;
-        margin-bottom: 10px;
-        margin-left: 5px;
-    }
-    .teams-discription{
-        margin-bottom: -60px;
-    }
     .footer{
-        margin-left: -135px;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: -150px;
     }
     footer{
-        height: 880px;
+        height: 850px;
+    }
+    .menu{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .menu-item h3{
+        margin-top: 30px;
     }
     hr{
-        align-items: center;
-        margin: 0px 10px;
-        margin-top: -40px;
-    }
-    .copy{
-        padding: 40px 10px;
-        margin-top: -20px;
-    }
-    .footer-description{
-        margin-bottom: 20px;
-    }
-    .menu-item{
-        margin-top: 20px;
+        margin: 0px 30px;
+        margin-top: -30px;
     }
 }
+/* for mobile device */
